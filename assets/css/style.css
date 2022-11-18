@@ -1,0 +1,155 @@
+
+    /* body {
+        background-color: whitesmoke;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .linear-gradient-background {
+        background-image: linear-gradient(
+            rgba(232, 102, 236, 0.3) 0%,
+            rgba(232, 102, 236, 0.6) 100%
+        );
+    }
+
+    .code-card .card-header {
+        border-radius: 8px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .code-card:hover,
+    .code-card:hover .card-header {
+        box-shadow: inset 0 0 8px rgba(232,
+         102, 236, 1), 0 0 15px rgba(232,102, 236, 1);
+    }
+
+    .card-header {
+        position: relative;
+        margin-top: -20px;
+    }
+
+
+    @media screen and (max-width: 992) {
+        .grid {
+            display: grid;
+            width: 50%;
+        }
+
+        @media screen and (max-width: 992) {
+            .grid {
+                display: grid;
+                width: 100%;
+            }
+    } */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    list-style: none;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background: #323b42;
+    height: 80px;
+    width: 100%;
+}
+
+label.name {
+    color: #323b42;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    background: #0ea1ce;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: gray;
+    font-size: 25px;
+}
+
+.container {
+    clear: both;
+}
+.headingDiv {
+    border-right-style: solid red;
+    float: left;
+    width: 30%;
+    display: inline;
+ 
+ }
+ .paraDiv {
+     /* justify-content: space-between; */
+     padding: 50 50 50 50;
+     display: inline;
+ }
+
+ .flexcontainer {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 500px;
+ }
+
+ .workbox {
+    border: 1px solid black;
+    /* flex: 25%; */
+    display: block;
+ }
+
+ .column {
+    display: flex;
+    flex: 1;
+}
+
+/* p{
+    display: inline-block
+    vertical-align: middle;
+    width: 50%;
+}
+
+h1 {
+    display: inline-block
+    margin-right: 40px;
+} */
+
